@@ -1,5 +1,4 @@
 header {
-  font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
   font-size: 14px;
   height: 46px;
   width: 100%;
@@ -13,15 +12,51 @@ nav {
   padding: 0 11px 0 14px;
 }
 
-ul{
+nav ul{
   display: flex;
   justify-content: flex-end;
   align-items: center;
   height: 100%;
 }
 
-li {
+nav li {
+  display: flex;
+  align-items: center;
   list-style: none;
   margin: 0 3px;
   padding: 5px 0;
+  height: 45px;
+}
+
+.headerButton {
+  display: flex;
+  align-items: center;
+  color: #535353;
+  height: 100%;
+  padding: 0 8px;
+}
+
+a.headerButton span {
+  font-weight: 100;
+}
+
+.signIn {
+  color: #f96932;
+  display: inline-flex;
+  align-items: center;
+  height: 27.2px;
+  font-size: 13px;
+  margin: 0 12px;
+  padding: 5px 11px;
+  border: 1px solid #ec561a;
+  border-radius: 3px;
+}
+
+.arrow {
+  height: 14px;
+  width: 14px;
+}
+
+.arrow path {
+  fill: #535353;
 }

@@ -33,6 +33,10 @@ module.exports = {
   plugins: [new HtmlWebpackPlugin({
     templateContent: `
       <html>
+        <head>
+          <title>Wolfram|Alpha: Computational Intelligence</title>
+          <link rel="shortcut icon" href="https://www.wolframalpha.com/_next/static/images/favicon_fzx75d1e.ico">
+        </head>
         <body>
           <div id="root"></div>
         </body>
